@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+
+  #myFooter {
+    width: 100%;
+  }
+
+  .w3-row {
+    margin: 0 auto 150px auto;
+    margin-bottom: 150px;
+    text-align: center;
+    width: 50%;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+    <a href="#sponsor" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sponsor</a>
+    <a href="#project" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Project</a>
+    <a href="#ui" class="w3-bar-item w3-button w3-hide-small w3-hover-white">UI</a>
+    <a href="#demo" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Demo</a>
+  </div>
+</div>
+
+<div class="w3-main" style="text-align: center;">
+
+  <div class="w3-row w3-padding-64 full-width" id="team" style="width: 80%;">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Team 11: PDF Extraction</h1>
+      <div style="flex: auto;">
+        <div class="w3-card-4" style="width: 300px; display: inline-block; margin: 10px;">
+          <img src="assets/garrettheadshot.jpg" alt="Garrett" style="width:100%">
+          <div class="w3-container">
+            <h4>Garrett Weaver</h4>
+            <p>Communication Lead</p>
+          </div>
+        </div>
+
+        <div class="w3-card-4" style="width: 300px; display: inline-block; margin: 10px;">
+          <img src="assets/kaidenheadshot.jpg" alt="Kaiden" style="width:100%">
+          <div class="w3-container">
+            <h4>Kaiden Keiser</h4>
+            <p>Design Lead</p>
+          </div>
+        </div>
+
+        <div class="w3-card-4" style="width: 300px; display: inline-block; margin: 10px;">
+          <img src="assets/zakheadshot.jpg" alt="Zak" style="width:100%">
+          <div class="w3-container">
+            <h4>Zakary Honsaker</h4>
+            <p>Technical Lead</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row" id="sponsor">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Sponsor Information</h1>
+      <p>Sponsor: Riverside Research</p>
+      <img src="assets/riverside.svg" alt="Riverside Research" style="width: 30%; background-color: #192734;"></img>
+      <p>Riverside Research conducts independent and DoD-affiliated research in machine learning, optics, and aerospace technologies.
+        They have sponsored several capstone  projects this semester, including tools to optimize AI and improve intelligence confidence.
+      </p>
+      <p>Website: <a href="https://www.riversideresearch.org/">Riverside Research</a></p>    
+    </div>
+  </div>
+
+  <div class="w3-row" id ="project">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Project Description</h1>
+      <p>Our capstone project is a PDF parsing tool that extracts images, associated captions, and other metadata
+        before generating an image summary to speed up human analysis. Users can browse through every image and caption
+        in a document through our simplistic UI (next section).
+      </p>
+    </div>
+  </div>
+
+  <div class="w3-row" id ="ui">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Project UI</h1>
+      <img src="assets/projectui.png" style="width: 60%"></img>
+    </div>
+  </div>
+
+  <div class="w3-row" id ="demo">
+    <div class="w3-container">
+      <h1 class="w3-text-teal">Demo</h1>
+      <video src="assets/Team11FinalPresentation.mp4" style="width: 60%" controls></video>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>University of Dayton</h4>
+      <h4>Department of Computer Science</h4>
+      <h4>Spring 2025 Capstone Project</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
